@@ -1,0 +1,16 @@
+package sopra.auto;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+	ApplicationContext cont=new ClassPathXmlApplicationContext("com/sopra/auto/Config.xml");
+	Student std=cont.getBean("std");
+	System.out.println(std);
+	}
+
+}

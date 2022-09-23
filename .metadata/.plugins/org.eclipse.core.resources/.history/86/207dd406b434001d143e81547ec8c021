@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Demo for css and images</title>
+ <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+   <form action="s" method="post">
+   <h1>Registration Form</h1>
+
+   <label> username </label>
+   <input type="text" name="user_name" placeholder="enter the user"><br>
+   <label>
+   Password
+   </label>
+   <label>
+   <input type="password" name="password" placeholder="enter the password"><br>
+   <input type="submit" value="login">
+   </label>
+   </form>
+   </div>
+</body>
+</html>

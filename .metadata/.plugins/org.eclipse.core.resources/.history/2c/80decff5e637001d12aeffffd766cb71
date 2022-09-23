@@ -1,0 +1,7 @@
+package com.sopra;
+
+import javax.servlet.http.HttpServlet;
+
+public class DemoServletConfig extends HttpServlet {
+
+}

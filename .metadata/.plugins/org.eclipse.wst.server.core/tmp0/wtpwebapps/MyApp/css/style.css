@@ -1,0 +1,15 @@
+form
+{
+	width:40%;
+	height:300%;
+	background-color:#c0c0c0;
+	border:1px solid black;
+}
+.container
+{
+	text-align: center;
+}
+form
+{
+	display: inline-block;
+}

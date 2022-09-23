@@ -1,0 +1,10 @@
+package com.sopra.Sopra;
+
+public class Calculation 
+{
+public int a;
+public int b;
+{
+	System.out.println(a+b);
+}
+}

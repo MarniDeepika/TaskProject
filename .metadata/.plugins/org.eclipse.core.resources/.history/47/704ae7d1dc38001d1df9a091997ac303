@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean name="Addr" class="com.sopra.spring.ref.Address">
+<property name="city" value="TNagar"/>
+<property name="location" value="Chennai"/>
+</bean>
+<bean name="Emp" class="com.sopra.spring.ref.Employee">
+<property name="empId" value="100"/>
+<property name="empName" value="Deepu">
+<ref bean="Addr"/>
+</property>
+</bean>
+</beans>

@@ -1,0 +1,7 @@
+package com.sopra.spring;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class AnnotationContext extends AnnotationConfigApplicationContext {
+
+}

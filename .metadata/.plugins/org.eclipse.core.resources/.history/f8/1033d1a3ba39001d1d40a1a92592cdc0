@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration From</title>
+</head>
+<body>
+<form action="Registration" method="post">
+Name :<input type="text" name="Name"/></br>
+emailId :<input type="text" emailId="email"/></br>
+<input type="submit" value="Register">
+</form>
+
+
+
+
+
+</body>
+</html>
